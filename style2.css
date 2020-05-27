@@ -1,0 +1,132 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  align-self: center;
+  position: relative;
+  left: 200px;
+}
+
+li {
+  float: left;
+  margin: 0.25em;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+
+.header {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  float: right;
+  width: 100%;
+  padding: 5px;
+}
+
+#bitmoji div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#bitmoji div article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10%;
+}
+
+#bitmoji h1 {
+  width: 60em;
+  font-size: 60px;
+}
+
+#bitmoji {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h3.b {
+  background-color: black;
+  color: white;
+}
+
+div.a {
+  text-align: center;
+  margin-top: -20px;
+}
+
+button.a {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: none;
+  border-radius: 0ex;
+  margin: 8px 8px;
+  cursor: none;
+  font-size: 16px;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5ex;
+}
+
+#disc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer {
+  background-color: darkslategrey;
+  height: 60px;
+}
+
+.button1 {
+  background-color: darkslategrey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  font-weight: lighter;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5ex;
+}
